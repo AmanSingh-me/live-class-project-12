@@ -1,0 +1,146 @@
+@media screen and (min-width:1440px) {
+    body{
+        max-width: calc(100% - 10%);
+    }
+}
+
+@media screen and (max-width:992px) {
+    .list li{
+        display: none;
+    }
+    .header12{
+        flex-direction: column;
+        align-items: center;
+        padding: 1em 3em;
+    }
+    .header12 div img{
+        width: 100% ;
+    }
+    .header12 div:last-child{
+        width: 100% !important;
+        text-align: center;
+    }
+    form input{
+        width: 80% !important;
+    }
+    
+    .statistics div h2{
+        font-size: large;
+    }
+    .statistics div p{
+        font-size: small;
+    }
+    .video video{
+        width: 90%;
+    }
+    .services{
+        padding: 0 2em;
+    }
+    .services-1,.services-3{
+        flex-direction: column-reverse;
+    }
+    .services-2{
+        flex-direction: column;
+    }
+    .services div, .services img{
+        width: 100%;
+        text-align: center;
+    }
+    .services > div >div{
+        width: 100% !important;
+    }
+    .text{
+        padding: 1em 2em;
+    }
+    .text h1{
+        margin-bottom: .6em;
+    }
+    .team{
+        justify-content: space-evenly;
+        margin: 1em 2em;
+    }
+    .team .team-member{
+        width: 45%;
+        margin: 1em 0;
+    }
+    .footer-12{
+        padding: 2em 3em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .text{
+        flex-direction: column;
+    }
+    .text h1, .text p{
+        width: 100%;
+        text-align: center;
+    }
+    .team-member h4, .team-member p{
+        text-align: center;
+    }
+    .footer-11{
+        padding: 2em;
+    }
+    footer .logo{
+        width: 15%;
+    }
+    .social-media i{
+        padding: 5px 8px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    nav .list button{
+        padding: 8px 15px;
+    }
+    h2{
+        font-size: larger !important;
+    }
+    p{
+        font-size: small !important;
+    }
+    .heading{
+        font-size: 1.8em;
+        padding: 10px 0;
+    }
+    .header12{
+        padding: 1em ;
+    }
+    .header12 div:last-child h1{
+        font-size: 2.4em;
+    }
+    form input{
+        width: 100% !important;
+    }
+    form > button{
+        right: 2% !important;
+        padding: 1em 2em;
+    }
+    .team{
+        margin-top: 1em;
+    }
+    .team .team-member{
+        width: 80%;
+        margin: 1em 0;
+    }
+    .mail-icon{
+        left: 1%;
+    }
+    .footer-11{
+        padding: 1em;
+    }
+    hr{
+        width: 100%;
+        border-width: 1px;
+    }
+    .footer-12{
+        padding: 1.5em;
+    }
+    footer .logo{
+        width: 18%;
+    }
+    .social-media i{
+        margin: 0 3px ;
+    }
+}
